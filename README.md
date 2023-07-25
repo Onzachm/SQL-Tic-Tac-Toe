@@ -18,3 +18,7 @@ This repository contains a simple implementation of the Tic-Tac-Toe game as a st
 
 ```sql
 EXEC usp_ResetTicTacToeBoard;
+
+4. To start a new game, call the stored procedure
+
+
