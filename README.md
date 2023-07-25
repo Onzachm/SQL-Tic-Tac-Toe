@@ -18,7 +18,10 @@ This repository contains a simple implementation of the Tic-Tac-Toe game as a st
 
 ```sql
 EXEC usp_ResetTicTacToeBoard;
+```
 
-4. To start a new game, call the stored procedure
+5. To play the game, call the stored procedure usp_PlayTicTacToe with the desired row index, column index, and player mark ('X' or 'O') as parameters:
 
-
+```sql
+EXEC usp_PlayTicTacToe @Row, @Col, @PlayerMark;
+```
